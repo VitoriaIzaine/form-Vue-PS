@@ -1,0 +1,50 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("/media/classroom_bg.png");
+}
+
+.container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 72%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 13%;
+  margin-top: 7.5vh;
+  background-color: #C22A1F;
+  border-radius: 10px 10px 0 0;
+}
+
+.titulo {
+  width: 300px;
+  height: 50px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 30px;
+}
+
+.form {
+  background-color: white;
+  width: 72%;
+  height: 1500px;
+  margin-left: 13%;
+}
+/*# sourceMappingURL=home.css.map */
